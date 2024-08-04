@@ -28,13 +28,15 @@ header{
     margin-right: 0.5cm;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    opacity: 30%;
+    opacity: 50%;
+    
 
     
 
 }
-a:hover{
+:hover{
     opacity: 100%;
+
 }
 .logo{
     font-size: 2cm;
@@ -90,4 +92,10 @@ opacity: 60%;
 span{
     font-size: 3cm;
     color: rgba(255, 255, 255, 0.977);
+}
+a{
+    cursor: pointer;
+}
+.:hover:hover{
+    background-color: aliceblue;
 }
